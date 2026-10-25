@@ -1,0 +1,32 @@
+.think-tax-page{padding-top:74px;min-height:62vh}
+.think-tax-layout{display:grid;grid-template-columns:minmax(220px,.7fr) 1.3fr;gap:clamp(35px,8vw,100px);align-items:center;padding:35px 0 20px}
+.think-tax-cover{aspect-ratio:3/4;max-width:320px;width:100%;justify-self:center;border-radius:5px;background:linear-gradient(155deg,#e5d9b4,#d3b876 54%,#b89250);box-shadow:0 24px 55px rgba(64,51,24,.2);padding:11% 10%;display:flex;flex-direction:column;justify-content:space-between;color:#173b3a}
+.cover-kicker{font-size:clamp(8px,1.2vw,11px);font-weight:800;letter-spacing:.18em}
+.think-tax-cover strong{font:800 clamp(42px,8vw,76px)/.92 Manrope,'DM Sans',sans-serif;letter-spacing:-.06em}
+.cover-author{font-size:9px;letter-spacing:.12em;font-weight:800}
+.think-tax-copy{max-width:570px}
+.think-tax-copy h1{font-size:clamp(3rem,7vw,5.4rem);margin:16px 0}
+.think-tax-copy h1 em{font-style:normal;color:#4f8978}
+.think-tax-copy>p{max-width:460px;color:#6d7b74;line-height:1.8}
+.download-panel{margin-top:27px}
+.download-button{font-size:15px;padding:16px 22px}
+.download-count{margin:12px 0 0;color:#65776e;font-size:12px}
+.download-note{margin-top:20px!important;font-size:11px;color:#89938d!important}
+.profile-photo{width:112px;height:142px;flex:0 0 112px;border:2px solid #d9c18d;border-radius:11px;background-image:url('/images/haroon-tabraze-author-page.jpeg');background-repeat:no-repeat;background-size:503% auto;background-position:88% 23%;box-shadow:0 8px 24px rgba(25,61,53,.12)}
+.profile-facts a{display:block;padding:11px 0;border-bottom:1px solid #dfe5dc;font-size:12px;color:#2f7463}
+.profile-facts a:hover{text-decoration:underline}
+.temporary-landing{min-height:calc(100vh - 180px);padding-top:80px;padding-bottom:55px;display:flex;flex-direction:column;justify-content:center;max-width:930px}
+.landing-author{display:grid;grid-template-columns:112px minmax(0,1fr);gap:36px;align-items:center}
+.landing-photo{margin-top:7px}
+.landing-author h1{font-size:clamp(2.7rem,6vw,4.7rem);margin:16px 0 14px}
+.landing-intro{font-size:16px;color:#6d7b74;line-height:1.8;margin-bottom:0}
+.landing-bottom{margin-top:54px;padding-top:22px;border-top:1px solid var(--line)}
+.temporary-note{font-size:12px;color:#748078;margin-bottom:15px}
+.landing-links{display:flex;flex-wrap:wrap;gap:18px;color:#4b7869;font-size:12px;font-weight:600}
+.landing-links a:hover{text-decoration:underline}
+.download-panel{display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin-top:27px}
+.download-count{margin:0}
+.lms-link-button{padding:12px 18px}
+@media(max-width:680px){.think-tax-page{padding-top:49px}.think-tax-layout{grid-template-columns:minmax(100px,.55fr) 1fr;gap:22px;padding-top:25px}.think-tax-cover{max-width:180px}.cover-author{font-size:6px}.think-tax-copy h1{font-size:clamp(2.4rem,10vw,3.2rem)}.think-tax-copy>p{font-size:12px}.download-button{font-size:11px;padding:12px 13px}.download-count,.download-note{font-size:9px!important}}
+@media(max-width:680px){.profile-photo{width:78px;height:102px;flex-basis:78px;background-size:503% auto}}
+@media(max-width:680px){.temporary-landing{min-height:calc(100vh - 150px);padding-top:48px;padding-bottom:34px}.landing-author{grid-template-columns:78px minmax(0,1fr);gap:17px;align-items:start}.landing-author h1{font-size:clamp(2rem,9vw,3.1rem);margin:10px 0}.landing-intro{font-size:13px}.landing-bottom{margin-top:38px}.temporary-note{font-size:10px}.landing-links{gap:12px;font-size:10px}.download-panel{margin-top:20px}.lms-link-button{padding:11px 13px}}
