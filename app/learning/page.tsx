@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { requireUser } from "@/lib/auth/guards";
 
 const features = [
   { icon: "01", title: "Learn in clear steps", text: "Move through lessons that combine reading, video, resources and questions." },
@@ -6,7 +7,9 @@ const features = [
   { icon: "03", title: "Teach with flexibility", text: "Instructors can shape each course around its learners and learning outcomes." }
 ];
 
-export default function HomePage() {
+export default async function LearningPage() {
+  await requireUser("/learning");
+
   return (
     <>
       <section className="hero wrap">
